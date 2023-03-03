@@ -47,7 +47,7 @@ python manage.py runserver
 - http://127.0.0.1:8000/api/v1/groups/{id}/ - Информация о сообществе
 - http://127.0.0.1:8000/api/v1/follow/ - Подписки
 ```
-##### POST запросы
+##### POST запросы:
 ```
 - http://127.0.0.1:8000/api/v1/posts/ - Создание публикации
 - http://127.0.0.1:8000/api/v1/posts/{post_id}/comments/ - Добавление комментария
@@ -56,17 +56,17 @@ python manage.py runserver
 - http://127.0.0.1:8000/api/v1/jwt/refresh/ - Обновить JWT-токен
 - http://127.0.0.1:8000/api/v1/jwt/verify/ - Проверить JWT-токен
 ```
-##### PUT запросы
+##### PUT запросы:
 ```
 - http://127.0.0.1:8000/api/v1/posts/{id}/ - Обновление публикации
 - http://127.0.0.1:8000/api/v1/posts/{post_id}/comments/{id}/ - Обновление комментария
 ```
-##### PATCH запросы
+##### PATCH запросы:
 ```
 - http://127.0.0.1:8000/api/v1/posts/{id}/ - Частичное обновление публикации
 - http://127.0.0.1:8000/api/v1/posts/{post_id}/comments/{id}/ - Частичное обновление комментария
 ```
-##### DEL запросы
+##### DEL запросы:
 ```
 - http://127.0.0.1:8000/api/v1/posts/{id}/ - Удаление публикации
 - http://127.0.0.1:8000/api/v1/posts/{post_id}/comments/{id}/ - Удаление комментария
